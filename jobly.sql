@@ -13,6 +13,6 @@ CREATE DATABASE jobly;
 
 DROP DATABASE jobly_test;
 CREATE DATABASE jobly_test;
-\connect jobly_test
+\connect jobly
 
 \i jobly-schema.sql
